@@ -1,7 +1,10 @@
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans); */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* font-family: "Barlow Condensed"; */
 }
 
 body {
@@ -191,7 +194,8 @@ body {
   font-size: 2.5rem;
   margin-bottom: 1.3rem;
 }
-.play-again {
+.play-again-button {
+  cursor: pointer;
   padding: 10px 50px;
   font-size: 1.2rem;
   color: hsl(229, 25%, 31%);
@@ -206,4 +210,3 @@ body {
 .rock-result-border {
   border: hsl(349, 71%, 52%) solid 2.5rem;
 }
-

@@ -35,7 +35,7 @@
         <div><img src="./images/logo.svg" /></div>
         <div class="score">
           <h6>SCORE</h6>
-          <h1>0</h1>
+          <h1 class="score-digit">0</h1>
         </div>
       </div>
       <div class="picker">
@@ -57,23 +57,20 @@
           <div>
             <h3 class="choice-text">YOU PICKED</h3>
           </div>
-          <div
-            class="output-circle rock-result-border"
-            onclick="userChoice(`scissor`)"
-          >
-            <img src="./images/icon-scissors.svg" class="user-choice-image" />
+          <div class="output-circle user">
+            <img src="" class="user-choice-image" />
           </div>
         </div>
         <div class="center">
-          <h1 class="result-text">YOU WIN</h1>
-          <button class="play-again">PLAY AGAIN</button>
+          <h1 class="result-text"></h1>
+          <button class="play-again-button" onclick="playAgain()">PLAY AGAIN</button>
         </div>
         <div class="output">
           <div>
             <h3 class="choice-text">THE HOUSE PICKED</h3>
           </div>
-          <div class="output-circle" onclick="userChoice(`scissor`)">
-            <img src="./images/icon-scissors.svg" />
+          <div class="output-circle house">
+            <img src="" class="house-choice-image" />
           </div>
         </div>
       </div>

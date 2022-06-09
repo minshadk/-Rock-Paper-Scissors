@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.background {
+  background: radial-gradient(
+    134.34% 134.34% at 50% 0%,
+    #1f3757 0%,
+    #131537 100%
+  );
+  height: 100vh;
+  /* width: 100vh; ??? */
+  /* margin-bottom: 10rem; */
+  padding-top: 5rem;
+}
+
+.score-board {
+  display: flex;
+  justify-content: space-between;
+  width: 50rem;
+  /* margin-left: auto; */
+  margin-inline: auto;
+  padding: 1.5rem;
+  border: hsl(217, 16%, 45%) solid 0.2rem;
+  border-radius: 15px;
+  /* margin-top: 5rem; */
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 10rem;
+  height: 7rem;
+  border-radius: 15px;
+  padding: 5px;
+  /* padding: 20px; */
+}
+
+.score h6 {
+  font-size: 1rem;
+  color: hsl(229, 64%, 46%);
+  /* margin: 0px;
+  padding: 0px; */
+  /* background: #333; */
+  letter-spacing: 0.1em;
+}
+.score h1 {
+  font-size: 4rem;
+  color: hsl(229, 25%, 31%);
+
+  /* margin: 0px;
+  padding: 0px; */
+  /* background: #333; */
+}
+
+.picker {
+  height: 690px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* background: url(./images/bg-triangle.svg);
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+.triangle {
+  position: relative;
+}
+
+/* .paper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: -90px;
+  left: -90px;
+  background: #fff;
+  height: 200px;
+  width: 200px;
+  padding: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border:hsl(230, 89%, 62%) solid 1rem ;
+} */
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: #fff;
+  height: 200px;
+  width: 200px;
+  padding: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+
+.circle img {
+  /* height: 100px; */
+  height: 80px;
+  width: 70px;
+  /* width: 100px; */
+}
+
+.paper {
+  top: -90px;
+  left: -90px;
+  border: hsl(230, 89%, 62%) solid 1.5rem;
+}
+
+.scissor {
+  top: -90px;
+  right: -90px;
+  border: hsl(39, 89%, 49%) solid 1.5rem;
+}
+
+.rock {
+  bottom: -90px;
+  left: 18%;
+  border:  hsl(349, 71%, 52%) solid 1.5rem;
+}

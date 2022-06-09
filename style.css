@@ -105,7 +105,6 @@ body {
   padding: 2rem;
   border-radius: 50%;
   cursor: pointer;
-
 }
 
 .circle img {
@@ -130,5 +129,81 @@ body {
 .rock {
   bottom: -90px;
   left: 18%;
-  border:  hsl(349, 71%, 52%) solid 1.5rem;
+  border: hsl(349, 71%, 52%) solid 1.5rem;
 }
+
+/* result */
+
+.result {
+  height: 690px;
+  width: 1000px;
+  margin-inline: auto;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  /* background: #fff; */
+  height: 100%;
+  /* align-items: ; */
+}
+
+.output-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+  background: #fff;
+  height: 300px;
+  width: 300px;
+  padding: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 85px;
+}
+
+.choice-text {
+  font-size: 1.4rem;
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+
+.output-circle img {
+  height: 130px;
+  width: 100px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-text {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 1.3rem;
+}
+.play-again {
+  padding: 10px 50px;
+  font-size: 1.2rem;
+  color: hsl(229, 25%, 31%);
+}
+
+.paper-result-border {
+  border: hsl(230, 89%, 62%) solid 2.5rem;
+}
+.scissor-result-border {
+  border: hsl(39, 89%, 49%) solid 2.5rem;
+}
+.rock-result-border {
+  border: hsl(349, 71%, 52%) solid 2.5rem;
+}
+

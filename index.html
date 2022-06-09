@@ -15,7 +15,6 @@
     <!-- <link  -->
     <script defer src="script.js"></script>
 
-
     <title>Frontend Mentor | Rock, Paper, Scissors</title>
 
     <!-- Score
@@ -42,14 +41,39 @@
       <div class="picker">
         <div class="triangle">
           <img src="./images/bg-triangle.svg" />
-          <div class="circle paper " onclick="Button()">
-            <img src="./images/icon-paper.svg " />
+          <div class="circle paper" onclick="userChoice(`paper`)">
+            <img src="./images/icon-paper.svg" />
           </div>
-          <div class="circle scissor">
-            <img src="./images/icon-scissors.svg " />
+          <div class="circle scissor" onclick="userChoice(`scissor`)">
+            <img src="./images/icon-scissors.svg" />
           </div>
-          <div class="circle rock">
-            <img src="./images/icon-rock.svg " />
+          <div class="circle rock" onclick="userChoice(`rock`)">
+            <img src="./images/icon-rock.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="result">
+        <div class="output">
+          <div>
+            <h3 class="choice-text">YOU PICKED</h3>
+          </div>
+          <div
+            class="output-circle rock-result-border"
+            onclick="userChoice(`scissor`)"
+          >
+            <img src="./images/icon-scissors.svg" class="user-choice-image" />
+          </div>
+        </div>
+        <div class="center">
+          <h1 class="result-text">YOU WIN</h1>
+          <button class="play-again">PLAY AGAIN</button>
+        </div>
+        <div class="output">
+          <div>
+            <h3 class="choice-text">THE HOUSE PICKED</h3>
+          </div>
+          <div class="output-circle" onclick="userChoice(`scissor`)">
+            <img src="./images/icon-scissors.svg" />
           </div>
         </div>
       </div>

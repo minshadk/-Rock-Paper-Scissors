@@ -20,7 +20,7 @@ body {
   height: 100vh;
   /* width: 100vh; ??? */
   /* margin-bottom: 10rem; */
-  padding-top: 5rem;
+  padding-top: 3.5rem;
 }
 
 .score-board {
@@ -29,7 +29,7 @@ body {
   width: 50rem;
   /* margin-left: auto; */
   margin-inline: auto;
-  padding: 1.5rem;
+  padding: 1rem;
   border: hsl(217, 16%, 45%) solid 0.2rem;
   border-radius: 15px;
   /* margin-top: 5rem; */
@@ -42,7 +42,7 @@ body {
   align-items: center;
   background: #fff;
   width: 10rem;
-  height: 7rem;
+  /* height: 7rem; */
   border-radius: 15px;
   padding: 5px;
   /* padding: 20px; */
@@ -66,7 +66,7 @@ body {
 }
 
 .picker {
-  height: 690px;
+  height: 34rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,7 +138,7 @@ body {
 /* result */
 
 .result {
-  height: 690px;
+  height: 34rem;
   width: 1000px;
   margin-inline: auto;
   display: none;
@@ -164,8 +164,10 @@ body {
   align-items: center;
   /* position: absolute; */
   background: #fff;
-  height: 300px;
-  width: 300px;
+  /* height: 300px;
+  width: 300px; */
+  width: 17rem;
+  height: 17rem;
   padding: 2rem;
   border-radius: 50%;
   cursor: pointer;
